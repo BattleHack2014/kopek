@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@android:color/white"
+>
+	<RadioGroup
+		android:layout_width="fill_parent"
+		android:layout_height="60dp"
+		android:layout_alignParentBottom="true"
+		android:orientation="horizontal"
+		android:background="@drawable/navbar_background"
+	>
+		<RadioButton
+			android:id="@+id/navigation_trips"
+			style="@style/navbar_button"
+			android:drawableTop="@drawable/navigation_trips"
+			android:layout_marginLeft="5dp"
+		/>
+		<RadioButton
+			android:id="@+id/navigation_add_trip"
+			style="@style/navbar_button"
+			android:drawableTop="@drawable/navigation_add"
+		/>
+	</RadioGroup>
+</RelativeLayout>

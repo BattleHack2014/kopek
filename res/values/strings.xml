@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="trips">Trips</string>
+    <string name="add_trip">Add trip</string>
+    <string name="app_name">Kopek</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_trips">TripsActivity</string>
+    <string name="action_settings">Settings</string>
+
+</resources>
